@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="SSW get info">bd5ebc49db422300bea4d426ca9619f3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get Information">875f6009db022300bea4d426ca9619b4</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 12:44:56</sys_created_on>
+        <sys_id>e75b4581db822300bea4d426ca9619d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
+        <sys_update_name>sys_hub_action_instance_e75b4581db822300bea4d426ca9619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 12:44:56</sys_updated_on>
+        <ui_id>470aadd1-4596-4ea6-8ca8-9ce58b974bf7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e75b4581db822300bea4d426ca9619d1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e75b4581db822300bea4d426ca9619d1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 12:44:56</sys_created_on>
+        <sys_id>2b5b8981db822300bea4d426ca961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 12:44:56</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">1af28d4ddb422300bea4d426ca961910</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e75b4581db822300bea4d426ca9619d1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 12:44:56</sys_created_on>
+        <sys_id>eb5b8981db822300bea4d426ca961967</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 12:44:56</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">936f7489db422300bea4d426ca96195d</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category display_value="REST API">571e7489db422300bea4d426ca961928</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>hp_spoke</internal_name>
+        <label_cache>[{"name":"{{step[7b286ca5-25db-486a-82ce-c81e56f946aa].record.apikey}}","label":"step➛Look Up Record step➛Connections Record➛ApiKey","type":"step","ref":""},{"name":"{{step[7b286ca5-25db-486a-82ce-c81e56f946aa].record.apisecret}}","label":"step➛Look Up Record step➛Connections Record➛ApiSecret","type":"step","ref":""},{"name":"{{step[60f54669-f735-4a51-9cf6-8476fcd3be3c].response_body}}","label":"step➛REST step - get token➛Response Body","type":"step","ref":""},{"name":"{{step[60f54669-f735-4a51-9cf6-8476fcd3be3c].status_code}}","label":"step➛REST step - get token➛Status Code","type":"step","ref":""},{"name":"{{step[8a3688e2-28d8-482d-8640-b8677dc01590].accessToken}}","label":"step➛Script step - parse token➛accessToken","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>HP get access token</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="HP get access token">69f45615db422300bea4d426ca961902</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-27 12:47:30</sys_created_on>
+        <sys_id>7a855255db422300bea4d426ca961954</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>HP get access token</sys_name>
+        <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_7a855255db422300bea4d426ca961954</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-27 15:42:44</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a855255db422300bea4d426ca961954"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7a855255db422300bea4d426ca961954"/>
+    <sys_element_mapping action="delete_multiple" query="id=7a855255db422300bea4d426ca961954"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>accesstoken</field>
+        <id>7a855255db422300bea4d426ca961954</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-27 15:42:44</sys_created_on>
+        <sys_id>69ad7211dbc22300bea4d426ca96193b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-27 15:42:44</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7a855255db422300bea4d426ca961954</table>
+        <value>{{step[8a3688e2-28d8-482d-8640-b8677dc01590].accessToken}}</value>
+    </sys_element_mapping>
+</record_update>

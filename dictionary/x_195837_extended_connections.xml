@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Connections" max_length="40" name="x_195837_extended_connections" type="collection">
+        <element label="ApiKey" max_length="40" name="apikey" type="string"/>
+        <element label="ApiSecret" max_length="40" name="apisecret" type="string"/>
+        <element label="Password" max_length="40" name="password" type="string"/>
+        <element choice="1" label="Provider" max_length="40" name="provider" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hp Warranty Api" value="Hpw"/>
+                <element inactive_on_update="false" label="Snow Software" value="Ssw"/>
+            </choice>
+        </element>
+        <element label="User name" max_length="40" name="user_name" type="string"/>
+    </element>
+</database>

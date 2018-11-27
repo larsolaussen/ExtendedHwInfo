@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_flow_cat_variable_model">
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>875f6009db022300bea4d426ca9619b4</id>
+        <name>Get Information</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-26 10:42:35</sys_created_on>
+        <sys_id>435f6009db022300bea4d426ca9619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Information</sys_name>
+        <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
+        <sys_update_name>sys_flow_cat_variable_model_435f6009db022300bea4d426ca9619b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 10:42:35</sys_updated_on>
+    </sys_flow_cat_variable_model>
+</record_update>
