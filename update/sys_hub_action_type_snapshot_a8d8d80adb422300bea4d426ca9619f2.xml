@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category display_value="Script">2197100adb422300bea4d426ca96191d</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Parses JSON output from Hardware provider</description>
+        <internal_name>parse_json</internal_name>
+        <label_cache>[{"name":"{{action.jsonobject}}","label":"action➛jsonobject","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Parse JSON</name>
+        <outputs/>
+        <parent_action display_value="Parse JSON and update table">d9b7dcc6db422300bea4d426ca9619f0</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-29 11:38:01</sys_created_on>
+        <sys_id>a8d8d80adb422300bea4d426ca9619f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Parse JSON</sys_name>
+        <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_a8d8d80adb422300bea4d426ca9619f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-29 11:38:01</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a8d8d80adb422300bea4d426ca9619f2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a8d8d80adb422300bea4d426ca9619f2"/>
+</record_update>

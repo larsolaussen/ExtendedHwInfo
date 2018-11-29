@@ -2,26 +2,26 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="HP query warranty">10aebedddb822300bea4d426ca9619e4</action_type>
+        <action_type display_value="HP query warranty">a1ce3e11dbc22300bea4d426ca961987</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot display_value="HP query warranty">a1ce3e11dbc22300bea4d426ca961987</compiled_snapshot>
         <display_text/>
-        <flow display_value="HP Warranty 2">d6b07be937462300dfecdc1873990e37</flow>
+        <flow display_value="HP Warranty">d6b07be937462300dfecdc1873990e37</flow>
         <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-28 14:13:04</sys_created_on>
         <sys_id>46b2376d37462300dfecdc1873990e3b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
         <sys_update_name>sys_hub_action_instance_46b2376d37462300dfecdc1873990e3b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-28 14:17:02</sys_updated_on>
+        <sys_updated_on>2018-11-29 12:11:14</sys_updated_on>
         <ui_id>79ffa839-c0f4-4f5d-b78a-a5845a6931e0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=46b2376d37462300dfecdc1873990e3b"/>
@@ -39,6 +39,18 @@
         <value>{{1ab24775-7db2-4ac5-a089-2456c1e62f68.accesstoken}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>accesstoken</field>
+        <id>46b2376d37462300dfecdc1873990e3b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-29 10:05:26</sys_created_on>
+        <sys_id>98a34c8adb022300bea4d426ca9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-29 10:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a1ce3e11dbc22300bea4d426ca961987</table>
+        <value>{{1ab24775-7db2-4ac5-a089-2456c1e62f68.accesstoken}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>payload</field>
         <id>46b2376d37462300dfecdc1873990e3b</id>
         <sys_created_by>admin</sys_created_by>
@@ -48,6 +60,18 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-11-28 14:13:04</sys_updated_on>
         <table>var__m_sys_hub_action_input_10aebedddb822300bea4d426ca9619e4</table>
+        <value>{{75d38714-14f2-460f-807f-3d954eefa6e8.payload}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload</field>
+        <id>46b2376d37462300dfecdc1873990e3b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-29 10:05:26</sys_created_on>
+        <sys_id>d4a34c8adb022300bea4d426ca9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-29 10:05:26</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a1ce3e11dbc22300bea4d426ca961987</table>
         <value>{{75d38714-14f2-460f-807f-3d954eefa6e8.payload}}</value>
     </sys_element_mapping>
 </record_update>

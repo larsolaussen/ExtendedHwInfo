@@ -9,7 +9,7 @@
         <description/>
         <internal_name>hp_spoke</internal_name>
         <label_cache>[{"name":"{{action.apikey}}","label":"action➛apikey","type":"action","ref":""},{"name":"{{action.apisecret}}","label":"action➛apiSecret","type":"action","ref":""},{"name":"{{step[60f54669-f735-4a51-9cf6-8476fcd3be3c].response_body}}","label":"step➛REST step - get token➛Response Body","type":"step","ref":""},{"name":"{{step[60f54669-f735-4a51-9cf6-8476fcd3be3c].status_code}}","label":"step➛REST step - get token➛Status Code","type":"step","ref":""},{"name":"{{step[8a3688e2-28d8-482d-8640-b8677dc01590].accessToken}}","label":"step➛Script step - parse token➛accessToken","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>4463bf6d37462300dfecdc1873990ef4</latest_snapshot>
+        <latest_snapshot>397610c6db422300bea4d426ca9619bf</latest_snapshot>
         <master_snapshot>7a855255db422300bea4d426ca961954</master_snapshot>
         <name>HP get access token</name>
         <outputs/>

@@ -9,7 +9,7 @@
         <description/>
         <internal_name>hp_get_token</internal_name>
         <label_cache>[{"name":"{{action.serialnumber}}","label":"action➛computers","type":"action","ref":""},{"name":"{{action.count}}","label":"action➛count","type":"action","ref":""},{"name":"{{step[68e548be-172f-480f-b8cb-e77bf8c5fe8f].p}}","label":"step➛Script step➛p","type":"step","ref":""},{"name":"{{step[68e548be-172f-480f-b8cb-e77bf8c5fe8f].pa}}","label":"step➛Script step➛pa","type":"step","ref":""},{"name":"{{step[68e548be-172f-480f-b8cb-e77bf8c5fe8f].pay}}","label":"step➛Script step➛pay","type":"step","ref":""},{"name":"{{step[68e548be-172f-480f-b8cb-e77bf8c5fe8f].payl}}","label":"step➛Script step➛payl","type":"step","ref":""},{"name":"{{step[68e548be-172f-480f-b8cb-e77bf8c5fe8f].paylo}}","label":"step➛Script step➛paylo","type":"step","ref":""},{"name":"{{step[68e548be-172f-480f-b8cb-e77bf8c5fe8f].payloa}}","label":"step➛Script step➛payloa","type":"step","ref":""},{"name":"{{step[68e548be-172f-480f-b8cb-e77bf8c5fe8f].payload}}","label":"step➛Script step➛payload","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>e3a1372d37462300dfecdc1873990eb8</latest_snapshot>
+        <latest_snapshot>a97610c6db422300bea4d426ca96194f</latest_snapshot>
         <master_snapshot>7efea615db822300bea4d426ca9619f4</master_snapshot>
         <name>Hp build payload</name>
         <outputs/>

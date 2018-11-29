@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="HP query warranty">a1ce3e11dbc22300bea4d426ca961987</action_type>
+        <action_type_parent display_value="HP query warranty">10aebedddb822300bea4d426ca9619e4</action_type_parent>
+        <comment/>
+        <compiled_snapshot display_value="HP query warranty">a1ce3e11dbc22300bea4d426ca961987</compiled_snapshot>
+        <display_text/>
+        <flow display_value="HP Warranty">a8a38c8adb022300bea4d426ca961906</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-29 10:05:27</sys_created_on>
+        <sys_id>f4a38c8adb022300bea4d426ca961932</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
+        <sys_update_name>sys_hub_action_instance_f4a38c8adb022300bea4d426ca961932</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-29 10:05:27</sys_updated_on>
+        <ui_id>79ffa839-c0f4-4f5d-b78a-a5845a6931e0</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f4a38c8adb022300bea4d426ca961932"/>
+    <sys_element_mapping action="delete_multiple" query="id=f4a38c8adb022300bea4d426ca961932"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>accesstoken</field>
+        <id>f4a38c8adb022300bea4d426ca961932</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-29 10:05:27</sys_created_on>
+        <sys_id>74a38c8adb022300bea4d426ca961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-29 10:05:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a1ce3e11dbc22300bea4d426ca961987</table>
+        <value>{{1ab24775-7db2-4ac5-a089-2456c1e62f68.accesstoken}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload</field>
+        <id>f4a38c8adb022300bea4d426ca961932</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-29 10:05:27</sys_created_on>
+        <sys_id>b0a38c8adb022300bea4d426ca961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-29 10:05:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_a1ce3e11dbc22300bea4d426ca961987</table>
+        <value>{{75d38714-14f2-460f-807f-3d954eefa6e8.payload}}</value>
+    </sys_element_mapping>
+</record_update>

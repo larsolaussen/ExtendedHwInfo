@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category display_value="Script">2197100adb422300bea4d426ca96191d</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Parses JSON output from Hardware provider</description>
+        <internal_name>parse_json</internal_name>
+        <label_cache>[{"name":"{{action.jsonobject}}","label":"action➛jsonobject","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>64d8d80adb422300bea4d426ca9619d9</latest_snapshot>
+        <master_snapshot>a8d8d80adb422300bea4d426ca9619f2</master_snapshot>
+        <name>Parse JSON and update table</name>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-29 11:33:09</sys_created_on>
+        <sys_id>d9b7dcc6db422300bea4d426ca9619f0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Parse JSON and update table</sys_name>
+        <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_d9b7dcc6db422300bea4d426ca9619f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-29 12:12:33</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=d9b7dcc6db422300bea4d426ca9619f0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d9b7dcc6db422300bea4d426ca9619f0"/>
+</record_update>

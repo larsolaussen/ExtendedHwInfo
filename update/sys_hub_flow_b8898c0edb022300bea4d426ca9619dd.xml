@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Connects to hardware providers to obtain extended information such as warranty etc. Then populates this info to a related list to the computer table.</description>
+        <internal_name>get_extended_hardware_information</internal_name>
+        <label_cache>[{"name":"86f14257-028f-4430-bf7f-7e4d315bf790.item","label":"2➛Connections Record","reference":"x_195837_extended_connections","reference_display":"Connections","type":"reference","base_type":"reference"},{"name":"86f14257-028f-4430-bf7f-7e4d315bf790.item.provider","label":"2➛Connections Record➛Provider","reference":"","reference_display":"Provider","type":"choice","base_type":"choice","parent_table_name":"x_195837_extended_connections","column_name":"provider"},{"name":"8ae3156f-3863-49bf-8b76-aed57a82cfe2.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"8ae3156f-3863-49bf-8b76-aed57a82cfe2.Table","label":"1➛Connections Table","reference":"x_195837_extended_connections","reference_display":"Connections","type":"table_name","base_type":"table_name"},{"name":"8ae3156f-3863-49bf-8b76-aed57a82cfe2.Records","label":"1➛Connections Records","reference":"x_195837_extended_connections","reference_display":"Connections","type":"records","base_type":"records"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Extended Hardware Information</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-29 10:31:07</sys_created_on>
+        <sys_id>b8898c0edb022300bea4d426ca9619dd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Get Extended Hardware Information</sys_name>
+        <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
+        <sys_update_name>sys_hub_flow_b8898c0edb022300bea4d426ca9619dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-29 11:29:14</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=b8898c0edb022300bea4d426ca9619dd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b8898c0edb022300bea4d426ca9619dd"/>
+</record_update>

@@ -9,7 +9,7 @@
         <description/>
         <internal_name>hp_query_warranty</internal_name>
         <label_cache>[{"name":"{{action.accesstoken}}","label":"action➛accesstoken","type":"action","ref":""},{"name":"{{action.payload}}","label":"action➛payload","type":"action","ref":""},{"name":"{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>a9023b2d37462300dfecdc1873990eaa</latest_snapshot>
+        <latest_snapshot>8e7650c6db422300bea4d426ca961908</latest_snapshot>
         <master_snapshot>a1ce3e11dbc22300bea4d426ca961987</master_snapshot>
         <name>HP query warranty</name>
         <outputs/>
