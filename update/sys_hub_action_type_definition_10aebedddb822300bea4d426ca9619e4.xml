@@ -9,24 +9,24 @@
         <description/>
         <internal_name>hp_query_warranty</internal_name>
         <label_cache>[{"name":"{{action.accesstoken}}","label":"action➛accesstoken","type":"action","ref":""},{"name":"{{action.payload}}","label":"action➛payload","type":"action","ref":""},{"name":"{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>e5ce3e11dbc22300bea4d426ca96197a</latest_snapshot>
+        <latest_snapshot>a9023b2d37462300dfecdc1873990eaa</latest_snapshot>
         <master_snapshot>a1ce3e11dbc22300bea4d426ca961987</master_snapshot>
         <name>HP query warranty</name>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-27 15:47:00</sys_created_on>
         <sys_id>10aebedddb822300bea4d426ca9619e4</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>HP query warranty</sys_name>
         <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_10aebedddb822300bea4d426ca9619e4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-27 18:08:28</sys_updated_on>
+        <sys_updated_on>2018-11-28 14:10:05</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>

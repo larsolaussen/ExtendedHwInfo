@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>hp_warranty_2</internal_name>
+        <label_cache>[{"name":"79ffa839-c0f4-4f5d-b78a-a5845a6931e0.error","label":"5➛Error","reference_display":"Error","type":"string","base_type":"string"},{"name":"79ffa839-c0f4-4f5d-b78a-a5845a6931e0.warrantyinfo","label":"5➛warrantyinfo","reference_display":"warrantyinfo","type":"string","base_type":"string"},{"name":"1ab24775-7db2-4ac5-a089-2456c1e62f68.accesstoken","label":"4➛AccessToken","reference_display":"AccessToken","type":"string","base_type":"string"},{"name":"75d38714-14f2-460f-807f-3d954eefa6e8.payload","label":"2➛payload","reference_display":"payload","type":"string","base_type":"string"},{"name":"f3d79de3-c067-4ae4-bb6a-a3b56e82c2d9.Records","label":"1➛Computer Records","reference":"cmdb_ci_computer","reference_display":"Computer Records","type":"records","base_type":"records"},{"name":"f3d79de3-c067-4ae4-bb6a-a3b56e82c2d9.Table","label":"1➛Computer Table","reference":"cmdb_ci_computer","reference_display":"Computer Table","type":"table_name","base_type":"table_name"},{"name":"f3d79de3-c067-4ae4-bb6a-a3b56e82c2d9.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"268c2923-5c4d-4b81-8d46-4702bda9a88d.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"268c2923-5c4d-4b81-8d46-4702bda9a88d.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"268c2923-5c4d-4b81-8d46-4702bda9a88d.Record.apikey","label":"3➛Connections Record➛ApiKey","reference":"","reference_display":"ApiKey","type":"string","base_type":"string","parent_table_name":"x_195837_extended_connections","column_name":"apikey"},{"name":"268c2923-5c4d-4b81-8d46-4702bda9a88d.Record.apisecret","label":"3➛Connections Record➛ApiSecret","reference":"","reference_display":"ApiSecret","type":"string","base_type":"string","parent_table_name":"x_195837_extended_connections","column_name":"apisecret"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>HP Warranty 2</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-28 14:04:20</sys_created_on>
+        <sys_id>d6b07be937462300dfecdc1873990e37</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>HP Warranty 2</sys_name>
+        <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
+        <sys_update_name>sys_hub_flow_d6b07be937462300dfecdc1873990e37</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 14:17:01</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d6b07be937462300dfecdc1873990e37"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d6b07be937462300dfecdc1873990e37"/>
+</record_update>

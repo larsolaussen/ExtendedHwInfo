@@ -7,26 +7,52 @@
         <copied_from_name/>
         <description/>
         <internal_name>hp_query_warranty</internal_name>
-        <label_cache>[]</label_cache>
+        <label_cache>[{"name":"{{action.accesstoken}}","label":"action➛accesstoken","type":"action","ref":""},{"name":"{{action.payload}}","label":"action➛payload","type":"action","ref":""},{"name":"{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""},{"name":"{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>HP query warranty</name>
+        <outputs/>
         <outputs/>
         <parent_action display_value="HP query warranty">10aebedddb822300bea4d426ca9619e4</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-11-27 15:47:38</sys_created_on>
         <sys_id>a1ce3e11dbc22300bea4d426ca961987</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>HP query warranty</sys_name>
         <sys_package display_value="Extended Harware Info" source="x_195837_extended">a9bdac01db022300bea4d426ca9619f2</sys_package>
         <sys_policy/>
         <sys_scope display_value="Extended Harware Info">a9bdac01db022300bea4d426ca9619f2</sys_scope>
         <sys_update_name>sys_hub_action_type_snapshot_a1ce3e11dbc22300bea4d426ca961987</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-11-27 15:47:38</sys_updated_on>
+        <sys_updated_on>2018-11-28 14:10:05</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=a1ce3e11dbc22300bea4d426ca961987"/>
     <sys_variable_value action="delete_multiple" query="document_key=a1ce3e11dbc22300bea4d426ca961987"/>
+    <sys_element_mapping action="delete_multiple" query="id=a1ce3e11dbc22300bea4d426ca961987"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>error</field>
+        <id>a1ce3e11dbc22300bea4d426ca961987</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-28 14:10:05</sys_created_on>
+        <sys_id>5e027b2d37462300dfecdc1873990ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 14:10:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a1ce3e11dbc22300bea4d426ca961987</table>
+        <value>{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>warrantyinfo</field>
+        <id>a1ce3e11dbc22300bea4d426ca961987</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-28 14:10:05</sys_created_on>
+        <sys_id>12027b2d37462300dfecdc1873990ec5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-28 14:10:05</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a1ce3e11dbc22300bea4d426ca961987</table>
+        <value>{{step[bef10d94-89f5-442e-8a6e-3daf096ab680].response_body}}</value>
+    </sys_element_mapping>
 </record_update>
